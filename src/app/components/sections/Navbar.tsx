@@ -30,7 +30,7 @@ function Navbar() {
   }
 
   return (
-    <nav className="flex justify-between items-center gap-4 container mx-auto py-8 px-5">
+    <nav className="flex justify-between items-center gap-4 container mx-auto py-8 px-5 z-40">
       <Logo />
       <ul
         className={`gap-8 lg:gap-16 z-40 ${
@@ -41,8 +41,8 @@ function Navbar() {
       >
         {NavLinks.map((navlink) => {
           return (
-            <li>
-              <Link href={navlink.link}>{navlink.name}</Link>
+            <li className="hover:opacity-50 active:translate-y-[1px]" key={navlink.name}>
+              <Link  href={navlink.link}>{navlink.name}</Link>
             </li>
           )
         })}
