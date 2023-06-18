@@ -2,21 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgba: 9, 9, 9, 92;
-  --background-rgba: 251, 251, 251;
-  --cursor-element: 9, 9, 9, 5;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgba: 251, 251, 251;
-    --background-rgba: 9, 9, 9;
-    --cursor-element: 251, 251, 251, 5;
-  }
-}
-
-body {
-  color: rgb(var(--foreground-rgba));
-  background: rgb(var(--background-rgba));
+@layer base{
+    body {
+        @apply dark:bg-black bg-white dark:text-white text-black
+    }
 }
