@@ -6,7 +6,10 @@ import Button from "../ui/Button"
 
 function Hero() {
   return (
-    <div id="#Home" className="flex flex-col items-center gap-8 relative container mx-auto px-5 h-screen">
+    <div
+      id="#Home"
+      className="flex flex-col items-center gap-8 relative container mx-auto px-5 h-screen"
+    >
       <h1
         className={`${inter.className} text-7xl sm:text-8xl font-bold text-center pt-16 sm:pt-32`}
       >
@@ -19,10 +22,15 @@ function Hero() {
         user experiences and robust functionality.
       </p>
       <div className="flex flex-col sm:flex-row gap-7">
-        <Button link="#Projects" variant="filled">Projects</Button>
-        <Button link="#About" variant="outlined">About me</Button>
+        <Button link="#Projects" variant="filled">
+          Projects
+        </Button>
+        <Button link="#About" variant="outlined">
+          About me
+        </Button>
       </div>
       <Image
+        priority
         src={HeroEclipseLight}
         alt="Hero Image"
         width={600}
