@@ -30,12 +30,12 @@ function Navbar() {
   }
 
   return (
-    <nav className="flex justify-between items-center gap-4 container mx-auto py-10 px-5">
+    <nav className="flex justify-between items-center gap-4 container mx-auto py-8 px-5">
       <Logo />
       <ul
-        className={`gap-16 ${
+        className={`gap-8 lg:gap-16 z-40 ${
           isOpen
-            ? "flex flex-col items-center p-10 w-screen bg-white dark:bg-black absolute top-0 left-0"
+            ? "flex flex-col justify-between items-center p-10 w-screen gap-16 bg-white dark:bg-black absolute top-0 left-0"
             : "hidden"
         }  md:flex-row    md:flex`}
       >
@@ -51,7 +51,7 @@ function Navbar() {
         </div>
       </ul>
       <button
-        className="text-2xl focus:outline-none md:hidden z-10"
+        className="text-2xl focus:outline-none md:hidden z-50"
         onClick={toggleMenu}
       >
         <svg
