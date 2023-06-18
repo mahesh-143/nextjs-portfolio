@@ -9,8 +9,8 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
-        "noise-texture": "url('/noiseandtexture.png')",
-        "noise-texture-dark": "url('/noiseandtexturedark.png')",
+        "noise-texture": "url('/noiseandtexture.webp')",
+        "noise-texture-dark": "url('/noiseandtexturedark.webp')",
       },
       colors: {
         whiteaccent: "rgba(251, 251, 251, 1)",

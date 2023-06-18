@@ -1,12 +1,12 @@
 import Image from "next/image"
 import React from "react"
-import HeroEclipseLight from "../../../../public/heroeclipselight.png"
+import HeroEclipseLight from "../../../../public/heroeclipselight.webp"
 import { inter } from "@/app/layout"
 import Button from "../ui/Button"
 
 function Hero() {
   return (
-    <div className="flex flex-col items-center gap-8 relative container mx-auto px-5 h-screen">
+    <div id="#Home" className="flex flex-col items-center gap-8 relative container mx-auto px-5 h-screen">
       <h1
         className={`${inter.className} text-7xl sm:text-8xl font-bold text-center pt-16 sm:pt-32`}
       >
