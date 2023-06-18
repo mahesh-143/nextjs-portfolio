@@ -53,7 +53,7 @@ function About() {
           </h3>
           <div className="max-w-[650px] flex gap-2 flex-wrap">
             {skills.map((skill) => {
-              return <SkillBadge>{"#" + skill}</SkillBadge>
+              return <SkillBadge key={skill}>{"#" + skill}</SkillBadge>
             })}
           </div>
         </div>
