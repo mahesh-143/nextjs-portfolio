@@ -12,7 +12,7 @@ function Projects() {
       </h2>
       <div className="flex flex-wrap gap-9 justify-center">
         {projects.map((project) => {
-          return <ProjectCard {...project}/>
+          return <ProjectCard key={project.id} {...project}/>
         })}
       </div>
     </div>
