@@ -18,7 +18,7 @@ const skills = [
 ]
 function About() {
   return (
-    <div className="container mx-auto px-5 pt-5">
+    <div className="container mx-auto px-5 pt-20">
       <h2
         className={`${inter.className} font-bold text-5xl md:text-6xl text-center mb-20`}
       >

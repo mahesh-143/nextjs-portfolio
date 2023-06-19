@@ -3,6 +3,7 @@ import Navbar from "./components/sections/Navbar"
 import Hero from "./components/sections/Hero"
 import ThemeSwitch from "./components/ui/ThemeSwitch"
 import About from "./components/sections/About"
+import Projects from "./components/sections/Projects"
 
 export default function Home() {
   return (
@@ -10,6 +11,7 @@ export default function Home() {
       <Navbar />
       <Hero />
       <About />
+      <Projects />
     </div>
   )
 }

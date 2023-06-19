@@ -1,6 +1,5 @@
 import Image from "next/image"
 import React from "react"
-import HeroEclipseLight from "../../../../public/heroeclipselight.webp"
 import { inter } from "../utils/fonts"
 import Button from "../ui/Button"
 
@@ -31,7 +30,7 @@ function Hero() {
       </div>
       <Image
         priority
-        src={HeroEclipseLight}
+        src="/heroeclipselight.webp"
         alt="Hero Image"
         width={600}
         height={600}
