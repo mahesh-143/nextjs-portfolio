@@ -6,12 +6,15 @@ import SocialLinks from "../ui/SocialLinks"
 const skills = [
   "html",
   "css",
+  "tailwind css",
   "javascript",
-  "react",
-  "next js",
   "typescript",
+  "react",
+  "react native",
+  "next js",
   "express js",
-  "python",
+  "prisma",
+  "postgres",
 ]
 function About() {
   return (
@@ -51,7 +54,7 @@ function About() {
           >
             Skills
           </h3>
-          <div className="max-w-[650px] flex gap-2 flex-wrap">
+          <div className="max-w-[650px] flex gap-1 flex-wrap">
             {skills.map((skill) => {
               return <SkillBadge key={skill}>{"#" + skill}</SkillBadge>
             })}
