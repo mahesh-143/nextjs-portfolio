@@ -1,4 +1,4 @@
-import { inter } from "@/app/layout"
+import { inter } from "../utils/fonts"
 import React from "react"
 import SkillBadge from "../ui/SkillBadge"
 import SocialLinks from "../ui/SocialLinks"

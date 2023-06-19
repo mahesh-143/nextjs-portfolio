@@ -1,9 +1,6 @@
 import { Providers } from "./components/utils/providers"
 import "./globals.css"
-import { Inter, Poppins } from "next/font/google"
-
-export const inter = Inter({ weight:"700", subsets: ["latin"] })
-export const poppins = Poppins({weight: ["400", "500", "700"], subsets: ["latin"]})
+import { inter } from "./components/utils/fonts"
 
 export const metadata = {
   title: "Create Next App",
@@ -16,8 +13,8 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="en" suppressHydrationWarning className="font-medium">
-      <body className={poppins.className}>
+    <html lang="en" suppressHydrationWarning >
+      <body className={`${inter.className} font-medium`}>
          <Providers>{children}</Providers>
         </body>
     </html>

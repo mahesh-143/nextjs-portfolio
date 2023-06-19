@@ -1,7 +1,7 @@
 import Image from "next/image"
 import React from "react"
 import HeroEclipseLight from "../../../../public/heroeclipselight.webp"
-import { inter } from "@/app/layout"
+import { inter } from "../utils/fonts"
 import Button from "../ui/Button"
 
 function Hero() {
