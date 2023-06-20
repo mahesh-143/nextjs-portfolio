@@ -6,14 +6,17 @@ const Button = ({
   children,
   variant,
   link,
+  newTab,
 }: {
   children: React.ReactNode
   variant: "outlined" | "filled"
   link?: string
+  newTab?: boolean
 }) => {
   return (
     <Link
       href={link || "#"}
+      target={newTab ? "_blank" : ""}
       className={`${
         variant == "outlined"
           ? "border-4 border-black dark:border-whiteaccent text-black dark:text-whiteaccent hover:bg-black hover:dark:bg-whiteaccent hover:text-whiteaccent hover:dark:text-black"
