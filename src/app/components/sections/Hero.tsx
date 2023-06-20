@@ -15,10 +15,10 @@ function Hero() {
         Mahesh Odedara
       </h1>
       <p className="max-w-[824px] text-center">
-        I am a full-stack developer based in Gujarat, India with a knack for
-        creating innovative and efficient web solutions. With a solid foundation
-        in both front-end and back-end development, I strive to deliver seamless
-        user experiences and robust functionality.
+        I am a Front-end developer and UI designer based in Gujarat, India with
+        a knack for creating innovative and seamless solutions. With a strong
+        background in both development and design, I bring a unique blend of
+        technical expertise and aesthetic sensibility to my work.
       </p>
       <div className="flex flex-col sm:flex-row gap-7">
         <Button link="#Projects" variant="filled">

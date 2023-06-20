@@ -10,8 +10,9 @@ const skills = [
   "javascript",
   "typescript",
   "react",
-  "react native",
   "next js",
+  "react native",
+  "framer motion",
   "express js",
   "prisma",
   "postgres",
@@ -33,17 +34,21 @@ function About() {
           </h3>
           <div className="flex flex-col gap-5">
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio
-              ipsum autem, numquam molestiae obcaecati laboriosam non voluptatem
-              veritatis optio cupiditate quidem exercitationem dolorem
-              blanditiis officia hic animi aliquid corrupti perferendis expedita
-              pariatur nostrum iure.
+              As a frontend developer, I love crafting user-friendly and
+              visually appealing websites and web applications. I have
+              experience in building responsive and accessible interfaces that
+              provide seamless experiences across different devices.
             </p>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio
-              ipsum autem, numquam molestiae obcaecati laboriosam non voluptatem
-              veritatis optio cupiditate quidem exercitationem dolorem
-              blanditiis officia hic
+              In addition to my development skills, I'm proficient in using
+              Figma, a powerful design tool, to create stunning UI designs. This
+              allows me to effectively collaborate with designers, translating
+              their visions into pixel-perfect interfaces. platforms.
+            </p>
+            <p>
+              Outside of my professional life, I enjoy playing Chess on
+              Chess.com or Lichess. In my free time, you can often find me
+              watching Anime or reading Manga/Books.
             </p>
             <SocialLinks />
           </div>
