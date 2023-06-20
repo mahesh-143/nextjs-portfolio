@@ -4,7 +4,7 @@ export const projects = [
     name: "Thematick - Discussion forum",
     description:"Takuya is a freelance and a full-stack developer based in Osaka with a passion for building digital services/stuff he wants. He has a.",
     thumbnail: "/thematick.png",
-    github: "https://github.com/mahesh-143/thematick",
+    link: "#"
   },
   {
     id: 2,
@@ -12,6 +12,6 @@ export const projects = [
     description:"Takuya is a freelance and a full-stack developer based in Osaka with a passion for building digital services/stuff he wants. He has a.",
     thumbnail: "/thematick.png",
     github: "https://github.com/mahesh-143/thematick",
-    live: "https://maheshodedara.vercel.app"
+    link: "#"
   },
 ]
