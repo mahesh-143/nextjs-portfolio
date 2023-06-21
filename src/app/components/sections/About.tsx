@@ -40,7 +40,7 @@ function About() {
               provide seamless experiences across different devices.
             </p>
             <p>
-              In addition to my development skills, I'm proficient in using
+              In addition to my development skills, I&apos;m proficient in using
               Figma, a powerful design tool, to create stunning UI designs. This
               allows me to effectively collaborate with designers, translating
               their visions into pixel-perfect interfaces. platforms.
