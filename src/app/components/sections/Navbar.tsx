@@ -1,7 +1,6 @@
 "use client"
 import React, { useState } from "react"
 import Logo from "../ui/Logo"
-import Link from "next/link"
 import ThemeSwitch from "../ui/ThemeSwitch"
 
 const NavLinks = [
@@ -25,16 +24,12 @@ const NavLinks = [
 
 function Navbar() {
   const [isOpen, setIsOpen] = useState(false)
-  const [activeLink, setActiveLink] = useState("")
+  const [activeLink, setActiveLink] = useState("Home")
 
-  const handleScroll = (e: React.MouseEvent<HTMLAnchorElement, MouseEvent>) => {
-    e.preventDefault()
+
+  const handleLinkClick = (e: React.MouseEvent<HTMLAnchorElement, MouseEvent>) => {
     const href = e.currentTarget.href
     const targetId = href.replace(/.*\#/, "")
-    const elem = document.getElementById(targetId)
-    elem?.scrollIntoView({
-      behavior: "smooth",
-    })
     setActiveLink(targetId)
   }
 
@@ -59,9 +54,9 @@ function Navbar() {
               className={`hover:opacity-50 active:translate-y-[1px] ${isActive ? "font-bold" : ""}`}
               key={navlink.name}
             >
-              <Link href={navlink.link} onClick={handleScroll}>
+              <a href={navlink.link} onClick={handleLinkClick}>
                 {navlink.name}
-              </Link>
+              </a>
             </li>
           )
         })}

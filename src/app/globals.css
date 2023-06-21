@@ -6,4 +6,7 @@
     body {
         @apply dark:bg-black bg-white dark:text-white text-black
     }
+    html {
+        @apply scroll-smooth scroll-p-[76px] md:scroll-p-[78px]
+    }
 }
