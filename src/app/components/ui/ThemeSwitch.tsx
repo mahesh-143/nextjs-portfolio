@@ -19,7 +19,7 @@ const ThemeSwitch = () => {
   return (
     <button
       onClick={handleClick}
-      className="border border-black dark:border-whiteaccent rounded-md p-1"
+      className="border-4 border-black dark:border-whiteaccent rounded-xl py-1 px-4 active:translate-y-[1px]"
     >
       {theme}
     </button>
