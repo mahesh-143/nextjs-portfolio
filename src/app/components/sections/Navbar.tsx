@@ -26,8 +26,9 @@ function Navbar() {
   const [isOpen, setIsOpen] = useState(false)
   const [activeLink, setActiveLink] = useState("Home")
 
-
-  const handleLinkClick = (e: React.MouseEvent<HTMLAnchorElement, MouseEvent>) => {
+  const handleLinkClick = (
+    e: React.MouseEvent<HTMLAnchorElement, MouseEvent>
+  ) => {
     const href = e.currentTarget.href
     const targetId = href.replace(/.*\#/, "")
     setActiveLink(targetId)
@@ -38,7 +39,8 @@ function Navbar() {
   }
 
   return (
-    <nav className="flex justify-between items-center gap-4 container mx-auto py-5 px-5 z-40 sticky top-0 bg-white/30 dark:bg-black/30 backdrop-blur-[10px]">
+    <div className="sticky top-0 bg-white/30 dark:bg-black/30 backdrop-blur-[10px] z-40 ">
+    <nav className="flex justify-between items-center gap-4 container mx-auto py-5 px-5 z-40 ">
       <Logo />
       <ul
         className={`gap-8 lg:gap-16 z-40 ${
@@ -51,7 +53,9 @@ function Navbar() {
           const isActive = navlink.link.replace(/.*\#/, "") === activeLink
           return (
             <li
-              className={`hover:opacity-50 active:translate-y-[1px] ${isActive ? "font-bold" : ""}`}
+              className={`hover:opacity-50 active:translate-y-[1px] ${
+                isActive ? "font-bold" : ""
+              }`}
               key={navlink.name}
             >
               <a href={navlink.link} onClick={handleLinkClick}>
@@ -96,6 +100,7 @@ function Navbar() {
         <ThemeSwitch />
       </div>
     </nav>
+    </div>
   )
 }
 
