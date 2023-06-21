@@ -6,7 +6,7 @@ import Button from "../ui/Button"
 function Hero() {
   return (
     <div
-      id="#Home"
+      id="Home"
       className="flex flex-col items-center gap-8 relative container mx-auto px-5 h-screen"
     >
       <h1

@@ -4,7 +4,7 @@ import ProjectCard from "../ui/ProjectCard"
 import { projects } from "@/app/data/projects"
 function Projects() {
   return (
-    <div className="container mx-auto px-5 pt-20">
+    <div className="container mx-auto px-5 pt-20" id="Projects">
       <h2
         className={`${inter.className} font-bold text-5xl md:text-6xl text-center mb-20`}
       >
