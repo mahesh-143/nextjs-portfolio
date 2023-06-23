@@ -22,7 +22,7 @@ function thematick() {
       <div className="flex flex-col md:flex-row gap-8 justify-between">
         <div className="flex flex-col gap-5 md:max-w-sm lg:max-w-[650px]">
           <p>
-            "Thematick" is a dynamic web application designed to provide users
+            &quot;Thematick&quot; is a dynamic web application designed to provide users
             with a platform to present their thoughts, ask questions, and engage
             in discussions related to their favorite themes
           </p>
