@@ -17,9 +17,7 @@ export default function DashboardLayout({
           <ThemeSwitch />
         </nav>
       </div>
-      <section className="container mx-auto px-5">
-        {children}
-      </section>
+      <section className="container mx-auto px-5">{children}</section>
       <Footer />
     </div>
   )
