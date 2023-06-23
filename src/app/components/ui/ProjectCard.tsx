@@ -13,13 +13,13 @@ type Props = {
 
 function ProjectCard(props: Props) {
   return (
-    <Link href={`projects/thematick`} className="mb-11 relative">
+    <Link href={`projects/${props.link}`} className="mb-11 relative">
       <Image
         src={props.thumbnail}
         alt="Project Thumbnail"
         width={720}
         height={420}
-        className="mb-8"
+        className="mb-8 rounded-xl border border-black/10 dark:border-white/10"
       />
       <div className="max-w-[720px]">
         <h3 className="font-bold text-3xl md:text-4xl mb-4 text-center md:text-left">{props.name}</h3>
