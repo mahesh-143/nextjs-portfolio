@@ -14,7 +14,7 @@ const ThemeSwitch = () => {
     setMounted(true)
   }, [])
   if (!mounted) {
-    return null
+    return <div className="border-4 border-black dark:border-whiteaccent rounded-xl py-1 px-4">????</div>
   }
   return (
     <button
