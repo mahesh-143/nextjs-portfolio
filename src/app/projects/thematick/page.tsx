@@ -1,7 +1,8 @@
+"use client"
 import { inter } from "@/app/components/utils/fonts"
 import Image from "next/image"
 import React from "react"
-
+import { motion } from "framer-motion"
 const projectScreenshots = [
   "thematickhome.webp",
   "thematickthemes.webp",
@@ -9,9 +10,15 @@ const projectScreenshots = [
   "thematickuser.webp",
 ]
 
+const variants = {
+  hidden: { opacity: 0, x: 0, y: 20 },
+  enter: { opacity: 1, x: 0, y: 0 },
+}
+
+
 function thematick() {
   return (
-    <div>
+    <motion.div initial="hidden" animate="enter" variants={variants} transition={{duration:0.4, type:"easeInOut"}}>
       <h2
         className={`${inter.className} font-bold text-5xl md:text-6xl text-center pt-5 md:pt-10`}
       >
@@ -71,7 +78,7 @@ function thematick() {
           )
         })}
       </div>
-    </div>
+    </motion.div>
   )
 }
 

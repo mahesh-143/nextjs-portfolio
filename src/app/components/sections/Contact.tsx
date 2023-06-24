@@ -1,9 +1,16 @@
+"use client"
 import React from "react"
 import { inter } from "../utils/fonts"
+import { motion } from "framer-motion"
+
+const variants = {
+  hidden: { opacity: 0, x: 0, y: 20 },
+  enter: { opacity: 1, x: 0, y: 0 },
+}
 
 const Contact = () => {
   return (
-    <div className="container mx-auto px-5 pt-10" id="Contact">
+    <motion.div initial="hidden" animate="enter" transition={{duration: 0.4, type: "easeInOut"}} variants={variants} className="container mx-auto px-5 pt-10" id="Contact">
       <h2
         className={`${inter.className} font-bold text-5xl md:text-6xl text-center mb-20`}
       >
@@ -25,7 +32,7 @@ const Contact = () => {
         </button>
         </form>
       </div>
-    </div>
+    </motion.div>
   )
 }
 export default Contact
