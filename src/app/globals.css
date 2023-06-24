@@ -4,7 +4,7 @@
 
 @layer base {
   body {
-    @apply dark:bg-black bg-white text-lg sm:text-xl  dark:text-white text-black bg-noise-texture dark:bg-noise-texture-dark;
+    @apply dark:bg-black bg-whiteaccent text-lg sm:text-xl  dark:text-whiteaccent text-black bg-noise-texture dark:bg-noise-texture-dark;
   }
   html {
     @apply scroll-smooth scroll-p-[76px] md:scroll-p-[78px];

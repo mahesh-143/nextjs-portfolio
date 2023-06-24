@@ -1,4 +1,5 @@
 "use client"
+import Link from "next/link"
 import React from "react"
 
 const Button = ({
@@ -13,7 +14,7 @@ const Button = ({
   newTab?: boolean
 }) => {
   return (
-    <a
+    <Link
       href={link || "#"}
       target={newTab ? "_blank" : ""}
       className={`${
@@ -23,7 +24,7 @@ const Button = ({
       }   border-black border-4 dark:border-white px-12 py-4 rounded-xl font-bold active:translate-y-[1px]`}
     >
       {children}
-    </a>
+    </Link>
   )
 }
 

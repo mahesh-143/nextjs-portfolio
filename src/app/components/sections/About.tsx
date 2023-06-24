@@ -19,14 +19,14 @@ const skills = [
 ]
 function About() {
   return (
-    <div className="container mx-auto px-5 pt-20" id="About">
+    <div className="container mx-auto px-5 pt-10" id="About">
       <h2
         className={`${inter.className} font-bold text-5xl md:text-6xl text-center mb-20`}
       >
         About Me
       </h2>
-      <div className="flex flex-col md:flex-row gap-8 justify-between">
-        <div className="flex flex-col max-w-[650px]">
+      <div className="flex flex-col lg:flex-row gap-8 justify-between">
+        <div className="flex flex-col lg:max-w-[650px]">
           <h3
             className={`${inter.className} font-bold text-3xl md:text-4xl mb-10`}
           >

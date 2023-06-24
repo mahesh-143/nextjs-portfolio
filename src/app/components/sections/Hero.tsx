@@ -34,12 +34,12 @@ function Hero() {
         background in both development and design, I bring a unique blend of
         technical expertise and aesthetic sensibility to my work.
       </motion.p>
-      <motion.div initial="hidden" animate="enter" variants={variants} transition={{duration: 0.5, type: "easeInOut"}}className="flex flex-col sm:flex-row gap-7">
-        <Button link="#Projects" variant="filled">
-          Projects
+      <motion.div initial="hidden" animate="enter" variants={variants} transition={{duration: 0.5, type: "easeInOut"}} className="flex flex-col items-center sm:flex-row gap-7">
+        <Button link="/works" variant="filled">
+          Works
         </Button>
-        <Button link="#About" variant="outlined">
-          About me
+        <Button link="/contact" variant="outlined">
+          Contact
         </Button>
       </motion.div>
       <Image
