@@ -13,7 +13,7 @@ const variants = {
 }
 
 const Contact = () => {
-  const [state, handleSubmit] = useForm(process.env.NEXT_PUBLIC_FORM)
+  const [state, handleSubmit] = useForm(process.env.NEXT_PUBLIC_FORM as string)
   if (state.succeeded) {
     toast.success("Email sent successfully!!!", {
       position: "top-center",
