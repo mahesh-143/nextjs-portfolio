@@ -14,7 +14,7 @@ function Hero() {
   return (
     <div
       id="Home"
-      className="flex flex-col items-center gap-8 relative container mx-auto px-5 h-screen"
+      className="flex flex-col items-center gap-8 relative container mx-auto xl:pt-10 max-h-[44rem] px-5 h-screen"
     >
       <motion.h1
         initial="hidden"
