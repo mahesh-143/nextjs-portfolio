@@ -30,12 +30,12 @@ function Hero() {
         animate="enter"
         variants={variants}
         transition={{ duration: 0.4, type: "easeInOut" }}
-        className="max-w-[824px] text-center"
+        className="max-w-[820px] text-center"
       >
-        I am a Front-end developer and UI designer based in Gujarat, India with
-        a knack for creating innovative and seamless solutions. With a strong
-        background in both development and design, I bring a unique blend of
-        technical expertise and aesthetic sensibility to my work.
+        I am a full-stack developer based in Gujarat, India with a knack for
+        creating innovative and efficient web solutions. With a solid foundation
+        in both front-end and back-end development, I strive to deliver seamless
+        user experiences and robust functionality.
       </motion.p>
       <motion.div
         initial="hidden"

@@ -34,21 +34,18 @@ function About() {
           </h3>
           <div className="flex flex-col gap-5">
             <p>
-              As a frontend developer, I love crafting user-friendly and
-              visually appealing websites and web applications. I have
-              experience in building responsive and accessible interfaces that
-              provide seamless experiences across different devices.
+              Hey there! I'm Mahesh Odedara, a full stack developer with a
+              passion for building awesome web applications. I love diving into
+              both the front-end and back-end aspects of development to create
+              seamless and user-friendly experiences.
             </p>
             <p>
-              In addition to my development skills, I&apos;m proficient in using
-              Figma, a powerful design tool, to create stunning UI designs. This
-              allows me to effectively collaborate with designers, translating
-              their visions into pixel-perfect interfaces. platforms.
-            </p>
-            <p>
-              Outside of my professional life, I enjoy playing Chess on
-              Chess.com or Lichess. In my free time, you can often find me
-              watching Anime or reading Manga/Books.
+              With expertise in HTML, CSS, JavaScript, React and Tailwind CSS I
+              enjoy crafting visually appealing interfaces that work like a
+              charm across different devices. On the back-end, I work with
+              Node.js and Express to handle databases and build server
+              architectures. I'm all about writing clean and modular code that's
+              easy to maintain and scale.
             </p>
             <SocialLinks />
           </div>

@@ -42,10 +42,13 @@ const Contact = () => {
         Contact Me
       </h2>
       <p className="mb-8 text-center max-w-3xl mx-auto">
-        I am available for exciting UX design and frontend development
-        opportunities. Get in touch today!
+        I am available for exciting Full-stack development opportunities. Get in
+        touch today!
       </p>
-      <a href="mailto:maheshodedara13@yahoo.com?subject=FromPortfolio&body=message%20goes%20here" className="text-center mx-auto font-bold py-2 px-2 mb-8 max-w-fit border-4 border-black dark:border-whiteaccent rounded-xl flex items-center gap-2">
+      <a
+        href="mailto:maheshodedara13@yahoo.com?subject=FromPortfolio&body=message%20goes%20here"
+        className="text-center mx-auto font-bold py-2 px-2 mb-8 max-w-fit border-4 border-black dark:border-whiteaccent rounded-xl flex items-center gap-2"
+      >
         <FaPaperPlane />
         <span>maheshodedara13&#64;yahoo.com</span>{" "}
       </a>
