@@ -34,7 +34,7 @@ function About() {
           </h3>
           <div className="flex flex-col gap-5">
             <p>
-              Hey there! I'm Mahesh Odedara, a full stack developer with a
+              Hey there! I&apos;m Mahesh Odedara, a full stack developer with a
               passion for building awesome web applications. I love diving into
               both the front-end and back-end aspects of development to create
               seamless and user-friendly experiences.
