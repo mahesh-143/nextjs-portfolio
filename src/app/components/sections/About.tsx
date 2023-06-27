@@ -44,7 +44,7 @@ function About() {
               enjoy crafting visually appealing interfaces that work like a
               charm across different devices. On the back-end, I work with
               Node.js and Express to handle databases and build server
-              architectures. I'm all about writing clean and modular code that's
+              architectures. I&apos;m all about writing clean and modular code that&apos;s
               easy to maintain and scale.
             </p>
             <SocialLinks />
