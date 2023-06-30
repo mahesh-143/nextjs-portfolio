@@ -30,7 +30,7 @@ function Navbar() {
 
   return (
     <div className="sticky top-0 bg-white/30 dark:bg-black/30 backdrop-blur-[10px] z-40 ">
-      <nav className="flex justify-between items-center gap-4 container mx-auto py-5 px-5 z-40 ">
+      <nav role="navigation"aria-label="Main menu" className="flex justify-between items-center gap-4 container mx-auto py-5 px-5 z-40 ">
         <Logo />
         <ul
           className={`gap-8 lg:gap-16 z-40 ${
@@ -58,6 +58,8 @@ function Navbar() {
         </ul>
         <button
           className="text-2xl focus:outline-none md:hidden z-50"
+          aria-expanded={`${isOpen ? "true" : "false"}`}
+          aria-label="menu"
           onClick={toggleMenu}
         >
           <svg

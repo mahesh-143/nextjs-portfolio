@@ -62,6 +62,7 @@ const Contact = () => {
             required
             type="text"
             name="name"
+            id="name"
             className="mb-6 py-3 pl-3 rounded-xl border-4 border-black dark:border-whiteaccent focus:outline-none"
           />
 
@@ -70,6 +71,7 @@ const Contact = () => {
             required
             type="email"
             name="email"
+            id="email"
             className="mb-6 py-3 pl-3 rounded-xl border-4 border-black dark:border-whiteaccent focus:outline-none"
           />
           <ValidationError prefix="Email" field="email" errors={state.errors} />
@@ -78,6 +80,7 @@ const Contact = () => {
           <textarea
             required
             name="message"
+            id="message"
             className="mb-6 py-3 pl-3 rounded-xl border-4 border-black dark:border-whiteaccent focus:outline-none"
           />
           <ValidationError
@@ -86,7 +89,7 @@ const Contact = () => {
             errors={state.errors}
           />
 
-          <button className="mb-20 border-black border-4 dark:border-white px-12 py-4 rounded-xl font-bold active:translate-y-[1px] bg-black dark:bg-whiteaccent text-whiteaccent dark:text-black hover:bg-transparent hover:dark:bg-transparent hover:text-black hover:dark:text-whiteaccent">
+          <button type="submit" className="mb-20 border-black border-4 dark:border-white px-12 py-4 rounded-xl font-bold active:translate-y-[1px] bg-black dark:bg-whiteaccent text-whiteaccent dark:text-black hover:bg-transparent hover:dark:bg-transparent hover:text-black hover:dark:text-whiteaccent">
             submit
           </button>
           <ValidationError errors={state.errors} />

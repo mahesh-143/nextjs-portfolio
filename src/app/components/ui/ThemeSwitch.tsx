@@ -14,11 +14,17 @@ const ThemeSwitch = () => {
     setMounted(true)
   }, [])
   if (!mounted) {
-    return <div className="border-4 border-black dark:border-whiteaccent rounded-xl py-1 px-4">????</div>
+    return (
+      <div className="border-4 border-black dark:border-whiteaccent rounded-xl py-1 px-4">
+        ????
+      </div>
+    )
   }
   return (
     <button
       onClick={handleClick}
+      aria-label="theme switch"
+      role="switch"
       className="border-4 border-black dark:border-whiteaccent rounded-xl py-1 px-4 active:translate-y-[1px]"
     >
       {theme}
