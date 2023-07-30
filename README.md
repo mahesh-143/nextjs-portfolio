@@ -8,6 +8,9 @@ This repository contains the code for my personal portfolio website, which is bu
 - [Tailwind CSS](https://tailwindcss.com/) - A utility-first CSS framework.
 - [Framer Motion](https://www.framer.com/motion/) - Motion library for React.
 
+## Screenshot 
+![screenshot](https://github.com/mahesh-143/nextjs-portfolio/assets/68990762/df3ebbe8-064b-413f-a037-b914cd9c9bf5)
+
 ## Project Setup
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
