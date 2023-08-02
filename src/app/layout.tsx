@@ -3,6 +3,7 @@ import "./globals.css"
 import { inter } from "./components/utils/fonts"
 import Navbar from "./components/sections/Navbar"
 import Footer from "./components/sections/Footer"
+import { Analytics }  from "@vercel/analytics/react"
 export const metadata = {
   title: "Mahesh Odedara",
   description: "Fullstack Developer | React | Next Js | Tailwind CSS | Express JS",
@@ -21,6 +22,7 @@ export default function RootLayout({
           {children}
           <Footer />
         </Providers>
+        <Analytics />
       </body>
     </html>
   )
